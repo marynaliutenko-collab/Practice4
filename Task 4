@@ -1,0 +1,7 @@
+def count_sum():
+    A = list(map(int,input('Enter a list: ').split()))
+    print(A)
+    s = sum(A)
+    print ('The sum is:',s)
+    return (s)
+count_sum()
