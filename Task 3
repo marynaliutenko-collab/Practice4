@@ -3,7 +3,7 @@ def delete():
     print(A)
     result = []
     for x in range(len(A)):
-        if x % 2 == 0:
+        if x % 2 != 0:
             result.append(A[x])
     print(result)
     return result
